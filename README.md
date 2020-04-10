@@ -19,7 +19,7 @@
       git push origin master
    ```
 
-### 版本回退
+#### 版本回退
 
 - git log 查看历史纪录
 - git log –pretty=oneline 以一行显示历史纪录
@@ -36,5 +36,7 @@
 - git fetch origin 从主分支拉下最新版本
 
 - git merge origin/master 将本地最新版本合并到主分支
+
+- git push --set-upstream origin master 更新主分支
 
   
